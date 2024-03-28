@@ -81,12 +81,6 @@ button {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  --primary-color: #2182cc;
-  background-color: var(--primary-color);
 }
 
 .error-message {
@@ -98,7 +92,7 @@ button:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 500px;
+  width: 400px;
   background-color: #fff;
   color: #000;
   text-align: center;
