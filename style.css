@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fbef3a;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  padding-inline: 1rem;
+  background-color: black;
+  color: white;
+  background-image: url(hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#camp-activities-inquiry {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #f8f4ec;
+}
+
+textarea {
+  height: 90px;
+}
+
+button {
+  display: block;
+  margin-inline: auto;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  font-family: inherit;
+  color: #000;
+  border: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  --primary-color: #2182cc;
+  background-color: var(--primary-color);
+}
+
+.error-message {
+  color: #ee2610;
+  font-weight: 700;
+}
+
+.success-message {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+}
