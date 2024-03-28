@@ -18,31 +18,31 @@ errorMessage.className = 'error-message';
 // Define background images and corresponding title and button colors for each activity
 const activityStyles = {
   hiking: {
-    backgroundImage: 'hiking.png',
+    backgroundImage: 'hiking.webp',
     titleColor: '#A0DE7F',
     buttonBgColor: '#A0DE7F',
     buttonTextColor: '#000',
   },
   canoeing: {
-    backgroundImage: 'canoeing.png',
+    backgroundImage: 'canoeing.webp',
     titleColor: '#1fd31f',
     buttonBgColor: '#1fd31f',
     buttonTextColor: '#000',
   },
   fishing: {
-    backgroundImage: 'fishing.png',
+    backgroundImage: 'fishing.webp',
     titleColor: '#E3B84C',
     buttonBgColor: '#E3B84C',
     buttonTextColor: '#000',
   },
   crafts: {
-    backgroundImage: 'craft.png',
+    backgroundImage: 'craft.webp',
     titleColor: 'orange',
     buttonBgColor: 'orange',
     buttonTextColor: '#000',
   },
   archery: {
-    backgroundImage: 'archery.png',
+    backgroundImage: 'archery.webp',
     titleColor: '#000',
     buttonBgColor: '#000',
     buttonTextColor: '#fff',
